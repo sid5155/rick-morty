@@ -1,0 +1,25 @@
+.cards {
+    border : 1.5px solid red;
+    border-radius: 10px;
+}
+.img {
+    border-radius: 10px 10px 0 0;
+}
+
+.content {
+    padding: 12px;
+}
+
+.badge {
+    top: 10px;
+    right: 20px;
+    font-size: 17px;
+    position : absolute;
+}
+
+@media (max-width: 768px) {
+    .badge {
+        font-size: 0.75rem;
+        padding: 4px 8px;
+      }
+}
