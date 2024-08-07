@@ -37,6 +37,7 @@ const Species = ({setSpecies, setPageNumber}) => {
       >
         <div className="accordion-body">
         <div className="d-flex flex-wrap gap-2">
+        {/* mapping through species array to create filter button */}
 
           {species.map((species, index) => (
             <FilterBTN setPageNumber={setPageNumber} task={setSpecies} key={index} name="species" items={species} index={index} />
