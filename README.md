@@ -1,3 +1,6 @@
+Rick and Morty Project Using RestAPI
+
+
 Packages installed -
 
 npx create-react-app .
